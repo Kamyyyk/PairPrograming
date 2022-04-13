@@ -10,9 +10,9 @@ public class isPositive_test {
         //given
         int number = 7;
         //when
-        //boolean result = isPositive(number);
+        boolean result = Main.isPositive(number);
         //then
-        //Assertions.assertEquals(true,result);
+        Assertions.assertEquals(true,result);
     }
 
     @Test
@@ -20,8 +20,8 @@ public class isPositive_test {
         //given
         int number = -57;
         //when
-        //boolean result = isPositive(number);
+        boolean result = Main.isPositive(number);
         //then
-        //Assertions.assertEquals(false,result);
+        Assertions.assertEquals(false,result);
     }
 }

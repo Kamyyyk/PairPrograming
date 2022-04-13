@@ -25,5 +25,12 @@ public class Main {
         return a;
     }
 
-
+    public static boolean isPositive(int a) {
+        if (a >= 0) {
+            System.out.println("Liczba jest dodatnia");
+        } else {
+            return false;
+        }
+        return true;
+    }
 }
