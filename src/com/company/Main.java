@@ -10,9 +10,9 @@ public class Main {
 
     public static int int_max(int a, int b){
         if(a > b){
-            System.out.println(a);
+            return  a;
         } else if ((a < b)) {
-            System.out.println(b);
+            return b;
         }
         return a;
     }
