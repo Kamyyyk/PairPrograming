@@ -1,5 +1,7 @@
 package com.company;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,11 +10,10 @@ public class Main {
 
     public static int int_max(int a, int b){
         if(a > b){
-            return a;
+            System.out.println(a);
         } else if ((a < b)) {
-            return b;
+            System.out.println(b);
         }
         return a;
-
     }
 }
