@@ -18,9 +18,9 @@ public class Main {
 
     public static int int_min(int a, int b){
         if(a > b){
-           System.out.println(b);
+           return b;
         } else if ((a < b)) {
-            System.out.println(a);
+            return a;
         }
         return a;
     }
