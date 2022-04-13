@@ -11,8 +11,8 @@ public class int_min_test {
         int higher_number = 7;
         int lower_number = 5;
         //when
-        //int result = Main.int_min(higher_number,lower_number);
+        int result = Main.int_min(higher_number,lower_number);
         //then
-        //Assertions.assertEquals(lower_number,result);
+        Assertions.assertEquals(lower_number,result);
     }
 }
